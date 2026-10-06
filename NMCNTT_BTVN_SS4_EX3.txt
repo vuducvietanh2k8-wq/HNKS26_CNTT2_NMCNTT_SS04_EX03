@@ -1,0 +1,24 @@
+Thiết kế kiến trúc 4 tầng DIKW
+
+1. Data (Dữ liệu)
+
+Cảm biến thu thập: nhiệt độ, độ ẩm đất, độ ẩm không khí.
+Dữ liệu thời tiết và trạng thái máy bơm được lưu vào hệ thống.
+Ví dụ: Nhiệt độ = 36°C, Độ ẩm đất = 40%.
+
+2. Information (Thông tin)
+
+Hệ thống xử lý và tổng hợp dữ liệu thành thông tin có ý nghĩa.
+Gửi thông báo cho chủ vườn.
+Ví dụ: “Nhiệt độ đang cao 36°C, độ ẩm đất thấp.'
+
+3. Knowledge (Kiến thức)
+
+Áp dụng các quy tắc để đưa ra hành động tự động.
+Nếu nhiệt độ > 35°C → tự động bật máy bơm.
+Nếu độ ẩm đạt mức phù hợp → tắt máy bơm.
+
+4. Wisdom (Trí tuệ)
+
+Kết hợp dữ liệu lịch sử với dự báo thời tiết dài hạn để đưa ra chiến lược tối ưu.
+Điều chỉnh lượng và thời gian tưới để tiết kiệm nước, giảm chi phí và giúp cây phát triển tốt.
